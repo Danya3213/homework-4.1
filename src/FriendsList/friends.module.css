@@ -1,0 +1,41 @@
+.item {
+
+    display: flex;
+    align-items: center;
+    background-color: #383838;
+    border-radius: 10px;
+    padding: 10px;
+    border: 5px solid #333333;
+    box-shadow: 0 4px 15px 0 #000;
+}
+
+.friend-list {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.status {
+
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.status.active {
+
+    background-color: green;
+}
+
+.avatar {
+
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+.name {
+
+
+}
